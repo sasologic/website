@@ -315,6 +315,7 @@ nav ul li a:hover {
    text-align: center;
    
 }
+
  .testimonial-section ul {
      display: flex;
      margin-top: 3%;
@@ -335,6 +336,7 @@ nav ul li a:hover {
  .user-image {
     width: 14%;
 }
+
 }
 
 @media screen and (min-width:1040px) {
@@ -344,6 +346,10 @@ nav ul li a:hover {
 
     .testimonial-section blockquote {
         padding: 0 0.7em;
+     }
+
+     .features-section p {
+         text-align: left;
      }
      
 }
