@@ -1,19 +1,24 @@
 {
   "name": "website_project",
   "version": "1.0.0",
-  "description": "Sasologic Website",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/sasologic/sasologic_web_site.git"
   },
   "keywords": [
     "Web",
-    "Site"
+    "Sasologic",
+    "Infosys"
   ],
   "author": "Sunday Okini",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasologic/sasologic_web_site/issues"
+  },
+  "homepage": "https://github.com/sasologic/sasologic_web_site#readme"
 }
