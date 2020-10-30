@@ -337,6 +337,54 @@ nav ul li a:hover {
     width: 14%;
 }
 
+/* CSS for Development Notice Modal */
+.modal {
+    position: absolute;
+    top: 20%;
+    width: 50%;
+    left: 25%;
+    height: auto;
+    margin: 0 auto;
+    border: 3px solid orange;
+    font-weight: bolder;
+    border-radius: 0.6em;
+  }
+  
+  .hide-modal {
+    display:none;
+  }
+  
+  .modal-header {
+    background-color: #fff;
+    margin: 0;
+    width: 100%;
+    }
+
+    .notice {
+        color: #000;
+    }
+  .modal-button {
+    font-weight: bolder;
+    color: red;
+    display: inline-block;
+    margin-right: 5px;
+    width: 6%;
+    border: none;
+    background: transparent;
+    outline: none;
+  }
+
+  .modal-dialog {
+      color:#fff;
+      background-color: red;
+  }
+
+  .modal-content,.modal-footer {
+      padding: 10px;
+      background-color: red;
+    }
+  /* End of CSS for Development Notice Modal */
+
 }
 
 @media screen and (min-width:1040px) {
@@ -351,5 +399,55 @@ nav ul li a:hover {
      .features-section p {
          text-align: left;
      }
+
+     /* CSS for Development Notice Modal */
+.modal {
+    position: absolute;
+    top: 20%;
+    width: 25vw;
+    height: auto;
+    left: 40%;
+    border: 3px solid orange;
+    font-weight: bolder;
+    border-radius: 0.6em;
+  }
+  
+  .hide-modal {
+    display:none;
+  }
+  
+  .modal-header {
+    background-color: #fff;
+    margin: 0;
+    width: 100%;
+    }
+
+    .notice {
+        color: #000;
+    }
+  .modal-button {
+    font-weight: bolder;
+    color: red;
+    display: inline-block;
+    margin-right: 5px;
+    width: 6%;
+    border: none;
+    background: transparent;
+    outline: none;
+  }
+
+  .modal-dialog {
+      color:#fff;
+      background-color: red;
+  }
+
+  .modal-content,.modal-footer {
+      padding: 10px;
+      background-color: red;
+    }
+  /* End of CSS for Development Notice Modal */
      
 }
+
+
+  
