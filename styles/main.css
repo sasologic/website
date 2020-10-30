@@ -449,5 +449,9 @@ nav ul li a:hover {
      
 }
 
+.hide-modal {
+    display: none;
+}
+
 
   
