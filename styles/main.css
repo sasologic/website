@@ -280,6 +280,8 @@ nav ul li a:hover {
     width: 15x;
 }
 
+/* Media queries for min-650px */
+
 @media screen and (min-width: 650px) {
  .hero-section h1 {
      font-size: 2.1em;
@@ -337,55 +339,12 @@ nav ul li a:hover {
     width: 14%;
 }
 
-/* CSS for Development Notice Modal */
-.modal {
-    position: absolute;
-    top: 20%;
-    width: 50%;
-    left: 25%;
-    height: auto;
-    margin: 0 auto;
-    border: 3px solid orange;
-    font-weight: bolder;
-    border-radius: 0.6em;
-  }
-  
-  .hide-modal {
-    display:none;
-  }
-  
-  .modal-header {
-    background-color: #fff;
-    margin: 0;
-    width: 100%;
-    }
-
-    .notice {
-        color: #000;
-    }
-  .modal-button {
-    font-weight: bolder;
-    color: red;
-    display: inline-block;
-    margin-right: 5px;
-    width: 6%;
-    border: none;
-    background: transparent;
-    outline: none;
-  }
-
-  .modal-dialog {
-      color:#fff;
-      background-color: red;
-  }
-
-  .modal-content,.modal-footer {
-      padding: 10px;
-      background-color: red;
-    }
-  /* End of CSS for Development Notice Modal */
-
 }
+
+/* End of Media Queries for min-650px */
+
+
+/* Start of Media Queries for min-1040px */
 
 @media screen and (min-width:1040px) {
     .cta a {
@@ -399,33 +358,37 @@ nav ul li a:hover {
      .features-section p {
          text-align: left;
      }
+     
+}
 
-     /* CSS for Development Notice Modal */
+.hide-modal {
+    display:none;
+  }
+
+/* CSS for Development Notice Modal */
 .modal {
     position: absolute;
     top: 20%;
-    width: 25vw;
+    width: 50%;
+    left: 25%;
     height: auto;
-    left: 40%;
-    border: 3px solid orange;
+    margin: 0 auto;
     font-weight: bolder;
     border-radius: 0.6em;
+    padding: 0;
   }
   
-  .hide-modal {
-    display:none;
-  }
-  
-  .modal-header {
+.modal-header {
     background-color: #fff;
     margin: 0;
     width: 100%;
-    }
+}
 
-    .notice {
-        color: #000;
-    }
-  .modal-button {
+.notice {
+    color: #000;
+}
+
+.modal-button {
     font-weight: bolder;
     color: red;
     display: inline-block;
@@ -434,24 +397,16 @@ nav ul li a:hover {
     border: none;
     background: transparent;
     outline: none;
-  }
+}
 
-  .modal-dialog {
-      color:#fff;
-      background-color: red;
-  }
+.modal-dialog {
+    color:#fff;
+    background-color: red;
+    margin: 0;
+}
 
-  .modal-content,.modal-footer {
-      padding: 10px;
-      background-color: red;
-    }
+.modal-content,.modal-footer {
+    padding: 10px;
+    background-color: red;
+}
   /* End of CSS for Development Notice Modal */
-     
-}
-
-.hide-modal {
-    display: none;
-}
-
-
-  
