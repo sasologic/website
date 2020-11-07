@@ -23,13 +23,14 @@ body {
     
 }
 
-header  {
+.main-header  {
    text-align: left;
    display: flex;
    align-items: center;
    justify-content: space-between;
    width: 96%;
 }
+
 
 header h1 {
     margin-left: 0;
@@ -74,7 +75,7 @@ ul li a {
     justify-content: center;
     align-items: center;   
     text-align: center; 
-    }
+}
 
 
 .hero-section h1 {
@@ -361,6 +362,7 @@ nav ul li a:hover {
      }
      
 }
+/* End of Media Queries for min-1040px */
 
 .hide-modal {
     display:none;
@@ -384,10 +386,12 @@ nav ul li a:hover {
     background-color: #fff;
     margin: 0;
     width: 100%;
+    display: flex;
 }
 
 .notice {
     color: #000;
+    margin-left: 10px;
 }
 
 .modal-button {
