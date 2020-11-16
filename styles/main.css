@@ -389,10 +389,6 @@ nav ul li a:hover {
         background-color: rgb(95, 86, 97);
     }
     
-    .exit-btn {
-        display: none;
-    }
-
     .hamburger {
         display: none;
     }
