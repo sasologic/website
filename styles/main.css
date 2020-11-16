@@ -281,6 +281,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: rgb(70,66,71);
+    width: auto;
 }
 
 .exit-btn {
@@ -295,14 +296,15 @@ nav ul li a:hover {
     width: 15x;
 }
 
-/* Media queries for min-650px */
-
 /*Media queries for min-343px*/
 @media screen and (max-width: 345px) {
- .brand-name {
-     font-size: 1.2em;
- }
-}
+    .brand-name {
+        font-size: 1.2em;
+    }
+   }
+   /*End of Media queries for min-343px*/
+
+/* Media queries for min-650px */
 
 @media screen and (min-width: 650px) {
  .hero-section h1 {
@@ -352,7 +354,7 @@ nav ul li a:hover {
  
 
  .hero-section {
-     height: 35%;
+     height: 80%;
  }
 
  .user-image {
@@ -360,17 +362,51 @@ nav ul li a:hover {
 }
 
 }
-
 /* End of Media Queries for min-650px */
 
 
 /* Start of Media Queries for min-1024px */
 
 @media screen and (min-width:1024px) {
+    nav ul {
+        height: auto;
+        margin-top: 0;
+        display: flex;
+        text-align: left;
+        background-color: unset;
+        z-index: 14;
+        padding-top: 1em;
+    }
+    
+    nav ul li a {
+        color: #fff;
+        padding: 1em 2em;
+        background-color: initial;
+        font-weight: bolder;
+    }
+    
+    nav ul li a:hover {
+        background-color: rgb(95, 86, 97);
+    }
+    
+    .exit-btn {
+        display: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+    .show-desktop {
+        display: block;
+    }
+
+    .hide-desktop {
+        display: none;
+    }
     .hero-section {
         background: no-repeat center/100%  url("/images/cover.jpg");
         width: 100%;
-        height: 70%;
+        height: 100%;
         margin-top: 0;
     }
 
@@ -396,7 +432,7 @@ nav ul li a:hover {
      }
      
 }
-/* End of Media Queries for min-1040px */
+/* End of Media Queries for min-1024px */
 
 .hide-modal {
     display:none;
@@ -414,6 +450,7 @@ nav ul li a:hover {
     border-radius: 0.6em;
     padding: 0;
     transition: all .2s ease-in;
+    z-index: 40;
   }
   
 .modal-header {
