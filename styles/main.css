@@ -1,486 +1,473 @@
 * {
-    margin: 0 auto;
-    padding: 0px;
+  margin: 0 auto;
+  padding: 0px;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100vh;
-    width: 100vw;
-    margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 0;
 }
 
 .brand-logo {
-    margin: 0.6em 0 -0.1em -0.8em;
-    width: 50px;
-    height: 50px;
-    padding: 8px;
+  margin: 0.6em 0 -0.1em -0.8em;
+  width: 50px;
+  height: 50px;
+  padding: 8px;
 }
 
 .brand-name {
-    color: #000066;
-    display: inline-block;
-    font-size: 1.5em;
-    margin-right: auto;
-    text-align: left;
-    
+  color: #000066;
+  display: inline-block;
+  font-size: 1.5em;
+  margin-right: auto;
+  text-align: left;
 }
 
-.main-header  {
-   text-align: left;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   width: 100%;
-   position: fixed;
-   z-index: 20;
-   top: 0px;
-   background-color: orange;
-   margin: 0px;
-   padding: 5px 5px;
+.main-header {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+  top: 0px;
+  background-color: orange;
+  margin: 0px;
+  padding: 5px 5px;
 }
-
 
 header h1 {
-    margin-left: 0;
+  margin-left: 0;
 }
 
-
 .container {
-    margin: 0.8em 1.2em;
+  margin: 0.8em 1.2em;
 }
 
 .hide-mobile {
-   display: none;
+  display: none;
 }
 
 .show-mobile {
-    display: block;
+  display: block;
 }
 ul {
-    list-style-type: none;
-    
+  list-style-type: none;
 }
 
 ul li a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 .hamburger-link {
-    margin-right: 0;
+  margin-right: 0;
 }
 .hamburger {
-    width: 25px;
-    cursor: pointer;
-    margin-right: 8px;
+  width: 25px;
+  cursor: pointer;
+  margin-right: 8px;
 }
 
 .hero-section {
-    background: no-repeat center/100%  url("/images/cover.jpg");
-    width: 100%;
-    height: 35%;
-    opacity: 0.8;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-    text-align: center; 
-    margin-top: 84px;
-    
-    
+  background: no-repeat center/100% url("/images/cover.jpg");
+  width: 100%;
+  height: 35%;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 84px;
 }
 
-
 .hero-section h1 {
-    font-weight: bolder;
-    font-size: 1.2em;
-    color: orange;
+  font-weight: bolder;
+  font-size: 1.2em;
+  color: orange;
 }
 
 .subhead {
-    font-size: 0.98em;
-    z-index: 1;
-    color:  #000066;
-    font-weight: 900;
-    
+  font-size: 0.98em;
+  z-index: 1;
+  color: #000066;
+  font-weight: 900;
 }
 
-.features-section  {
-    width: 100%;
-    /* background-color: #00ccff; */
-    background-color: orange;
-    
-    text-align: center;
-    margin-bottom: 0;
-    color: #fff;
-    padding: 2em 0;
+.features-section {
+  width: 100%;
+  /* background-color: #00ccff; */
+  background-color: orange;
+
+  text-align: center;
+  margin-bottom: 0;
+  color: #fff;
+  padding: 2em 0;
 }
 
 .features-section img {
-width: 15%;
-padding-top: 0.5em;
+  width: 15%;
+  padding-top: 0.5em;
 }
 
 .features-section p {
-    text-align: left;
-    line-height: 1.6;
-    padding: 0 0.5em;
-    font-size: 0.9em;
+  text-align: left;
+  line-height: 1.6;
+  padding: 0 0.5em;
+  font-size: 0.9em;
 }
 
 .features-section li {
-    margin-bottom: 3em;
+  margin-bottom: 3em;
 }
 .testimonial-section {
-    background-color: #f0f0f0;
-    margin-top:0;
-    text-align: center;
-    padding: 2em 0;
+  background-color: #f0f0f0;
+  margin-top: 0;
+  text-align: center;
+  padding: 2em 0;
 }
 
 blockquote {
-    font-size: 0.9em;
-    line-height: 1.6;
+  font-size: 0.9em;
+  line-height: 1.6;
 }
 
 .user-image {
-    border-radius: 50%;
-    width: 10%;
+  border-radius: 50%;
+  width: 10%;
 }
 
 .testimonial-section img {
-    margin-right: 1em;
+  margin-right: 1em;
 }
 
 figcaption {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
 
 .testimonial-section .container {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .testimonial-section li:first-child {
-    margin-bottom: 1.8em;
+  margin-bottom: 1.8em;
 }
 
 figure {
-    margin: 0.5em 0;
+  margin: 0.5em 0;
 }
 
 figcaption {
-    font-weight: bold;
-    color: #00c2ff;
+  font-weight: bold;
+  color: #00c2ff;
 }
 
 .cta h2 {
-    margin-top: 7%;
-    text-align: center;
+  margin-top: 7%;
+  text-align: center;
 }
 
 .cta a {
-    border-radius: 20px;
-    /* background-color: #00cc80; */
-    background-color: orange;
-    color: white;
-    text-decoration: none;
-    width: calc(100% - 1em);
-    display: block;
-    text-align: center;
-    margin:3% auto 7%;
-    padding: 0.5em;
-    font-weight: bolder;
-    font-size: 1.5em;
-    position: relative;
-    z-index: 4;
+  border-radius: 20px;
+  /* background-color: #00cc80; */
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  width: calc(100% - 1em);
+  display: block;
+  text-align: center;
+  margin: 3% auto 7%;
+  padding: 0.5em;
+  font-weight: bolder;
+  font-size: 1.5em;
+  position: relative;
+  z-index: 4;
 }
 
 .footer-container img {
-    width: 30px;
-    display: inline-block;
-    text-align: center;
+  width: 30px;
+  display: inline-block;
+  text-align: center;
 }
 
 .footer-container {
-    width: 100%;
-    background-color: #3d444a;
-    color: #fff;
-    padding: 3em 0;
-    border-top-right-radius:40px;
-    transform: skewY(2deg);
+  width: 100%;
+  background-color: #3d444a;
+  color: #fff;
+  padding: 3em 0;
+  border-top-right-radius: 40px;
+  transform: skewY(2deg);
 }
 
 .footer-container .container {
-    transform: skewY(-2deg);
-    text-align: center;
+  transform: skewY(-2deg);
+  text-align: center;
 }
 
 .footer-container::before {
-    content: "";
-    width: 40px;
-    height: 40px;
-    background-color: #3d444a;
-    position: absolute;
-    top: -39px;
-    left: 0;
-    z-index: -2;
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: #3d444a;
+  position: absolute;
+  top: -39px;
+  left: 0;
+  z-index: -2;
 }
 
 .footer-container::after {
-    content: "";
-    width: 80px;
-    height: 80px;
-    background-color: #fff;
-    position: absolute;
-    z-index: -1;
-    top: -80px;
-    left: 0;
-    border-radius: 50%;
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  position: absolute;
+  z-index: -1;
+  top: -80px;
+  left: 0;
+  border-radius: 50%;
 }
 
 .footer-container p {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 .brand-logo-name {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
- ul.footer-links {
-     margin: 1em auto;
- }
+ul.footer-links {
+  margin: 1em auto;
+}
 
- ul.footer-links li {
-     display: inline-block;
- }
+ul.footer-links li {
+  display: inline-block;
+}
 
- ul.footer-links li  a {
-    color: #9d9d9d;
-    font-size: 0.8em;
+ul.footer-links li a {
+  color: #9d9d9d;
+  font-size: 0.8em;
 }
 
 nav ul {
-    position: fixed;
-    width: 60%;
-    top: 0;
-    right: 0;
-    text-align: left;
-    background-color: rgb(36,41,44);
-    height: 100%;
-    z-index: 14;
-    padding-top: 3em;
+  position: fixed;
+  width: 60%;
+  top: 0;
+  right: 0;
+  text-align: left;
+  background-color: rgb(36, 41, 44);
+  height: 100%;
+  z-index: 14;
+  padding-top: 3em;
 }
 
 nav ul li a {
-    color: #fff;
-    display: block;
-    width: 100%;
-    padding: 1em 2em;
-    background-color: rgb(52, 58, 63);
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding: 1em 2em;
+  background-color: rgb(52, 58, 63);
 }
 
 nav ul li a:hover {
-    background-color: rgb(70,66,71);
-    width: auto;
+  background-color: rgb(70, 66, 71);
+  width: auto;
 }
 
 .exit-btn {
-    margin-top: -1.3em;
-    margin-bottom: 1em;
-    text-align: right;
-    padding: 0 1.3em 0 0;
+  margin-top: -1.3em;
+  margin-bottom: 1em;
+  text-align: right;
+  padding: 0 1.3em 0 0;
 }
 
 .exit-btn img {
-    cursor: pointer;
-    width: 15x;
+  cursor: pointer;
+  width: 15x;
 }
 
 /*Media queries for min-343px*/
 @media screen and (max-width: 345px) {
-    .brand-name {
-        font-size: 1.2em;
-    }
-   }
-   /*End of Media queries for min-343px*/
+  .brand-name {
+    font-size: 1.2em;
+  }
+}
+/*End of Media queries for min-343px*/
 
 /* Media queries for min-650px */
 
 @media screen and (min-width: 650px) {
- .hero-section h1 {
-     font-size: 2.1em;
- }
+  .hero-section h1 {
+    font-size: 2.1em;
+  }
 
- .subhead {
-     font-size: 1.2em;
-     margin-bottom: 12%;
- }
+  .subhead {
+    font-size: 1.2em;
+    margin-bottom: 12%;
+  }
 
- .features-section img {
-     width: 20%;
- }
+  .features-section img {
+    width: 20%;
+  }
 
- .features-section ul {
-     display: flex;
- }
+  .features-section ul {
+    display: flex;
+  }
 
- .features-section h4 {
-     margin-top: 0.8em;
- }
+  .features-section h4 {
+    margin-top: 0.8em;
+  }
 
- .features-section li {
+  .features-section li {
     margin-right: 1.5em;
     margin-bottom: 0;
-}
+  }
 
-.features-section li:last-child {
+  .features-section li:last-child {
     margin-right: 0;
-}
+  }
 
-.features-section p {
-   text-align: center;
-   
-}
+  .features-section p {
+    text-align: center;
+  }
 
- .testimonial-section ul {
-     display: flex;
-     margin-top: 3%;
- }
+  .testimonial-section ul {
+    display: flex;
+    margin-top: 3%;
+  }
 
- .testimonial-section blockquote {
-   padding: 0 0.7em;
-}
+  .testimonial-section blockquote {
+    padding: 0 0.7em;
+  }
 
- 
+  .hero-section {
+    height: 80%;
+  }
 
- .hero-section {
-     height: 80%;
- }
-
- .user-image {
+  .user-image {
     width: 14%;
-}
-
+  }
 }
 /* End of Media Queries for min-650px */
 
-
 /* Start of Media Queries for min-1024px */
 
-@media screen and (min-width:1024px) {
-    nav ul {
-        height: auto;
-        margin-top: 0;
-        display: flex;
-        text-align: left;
-        background-color: unset;
-        z-index: 14;
-        padding-top: 1em;
-    }
-    
-    nav ul li a {
-        color: #fff;
-        padding: 1em 2em;
-        background-color: initial;
-        font-weight: bolder;
-    }
-    
-    nav ul li a:hover {
-        background-color: rgb(95, 86, 97);
-    }
-    
-    .hamburger {
-        display: none;
-    }
-    .show-desktop {
-        display: block;
-    }
+@media screen and (min-width: 1024px) {
+  nav ul {
+    height: auto;
+    margin-top: 0;
+    display: flex;
+    text-align: left;
+    background-color: unset;
+    z-index: 14;
+    padding-top: 1em;
+  }
 
-    .hide-desktop {
-        display: none;
-    }
-    .hero-section {
-        background: no-repeat center/100%  url("/images/cover.jpg");
-        width: 100%;
-        height: 100%;
-        margin-top: 0;
-    }
+  nav ul li a {
+    color: #fff;
+    padding: 1em 2em;
+    background-color: initial;
+    font-weight: bolder;
+  }
 
-    .features-section {
-        position: relative;
-        top: -25px;
-    }
-    .cta a {
-        width: 60%;
-    }
+  nav ul li a:hover {
+    background-color: rgb(95, 86, 97);
+  }
 
-    .container {
-        margin: 0 auto;
-        width: 80%;
-    }
+  .hamburger {
+    display: none;
+  }
+  .show-desktop {
+    display: block;
+  }
 
-    .testimonial-section blockquote {
-        padding: 0 0.7em;
-     }
+  .hide-desktop {
+    display: none;
+  }
+  .hero-section {
+    background: no-repeat center/100% url("/images/cover.jpg");
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+  }
 
-     .features-section p {
-         text-align: left;
-     }
-     
+  .features-section {
+    position: relative;
+    top: -25px;
+  }
+  .cta a {
+    width: 60%;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .testimonial-section blockquote {
+    padding: 0 0.7em;
+  }
+
+  .features-section p {
+    text-align: left;
+  }
 }
 /* End of Media Queries for min-1024px */
 
 .hide-modal {
-    display:none;
-  }
+  display: none;
+}
 
 /* CSS for Development Notice Modal */
 .modal {
-    position: absolute;
-    top: 20%;
-    width: 50%;
-    left: 25%;
-    height: auto;
-    margin: 0 auto;
-    font-weight: bolder;
-    border-radius: 0.6em;
-    padding: 0;
-    transition: all .2s ease-in;
-    z-index: 40;
-  }
-  
+  position: absolute;
+  top: 20%;
+  width: 50%;
+  left: 25%;
+  height: auto;
+  margin: 0 auto;
+  font-weight: bolder;
+  border-radius: 0.6em;
+  padding: 0;
+  transition: all 0.2s ease-in;
+  z-index: 40;
+}
+
 .modal-header {
-    background-color: #fff;
-    margin: 0;
-    width: 100%;
-    display: flex;
+  background-color: #fff;
+  margin: 0;
+  width: 100%;
+  display: flex;
 }
 
 .notice {
-    color: #000;
-    margin-left: 10px;
+  color: #000;
+  margin-left: 10px;
 }
 
 .modal-button {
-    font-weight: bolder;
-    color: red;
-    display: inline-block;
-    margin-right:2px;
-    width: 6%;
-    border: none;
-    background: transparent;
-    outline: none;
-    cursor: pointer;
+  font-weight: bolder;
+  color: red;
+  display: inline-block;
+  margin-right: 2px;
+  width: 6%;
+  border: none;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
 }
 
 .modal-dialog {
-    color:#fff;
-    background-color: red;
-    margin: 0;
+  color: #fff;
+  background-color: red;
+  margin: 0;
 }
 
-.modal-content,.modal-footer {
-    padding: 10px;
-    background-color: red;
+.modal-content,
+.modal-footer {
+  padding: 10px;
+  background-color: red;
 }
-  /* End of CSS for Development Notice Modal */
+/* End of CSS for Development Notice Modal */
