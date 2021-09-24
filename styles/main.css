@@ -373,7 +373,8 @@ nav ul li a:hover {
   }
 
   nav ul li a:hover {
-    background-color: #e3e3e3;
+    background-color: #777;
+    
   }
 
   .hamburger {
