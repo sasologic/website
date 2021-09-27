@@ -96,6 +96,11 @@ ul li a {
   font-weight: 900;
 }
 
+/* active links styles */
+.active-link {
+  background: #f00;
+}
+
 .features-section {
   width: 100%;
   /* background-color: #00ccff; */
