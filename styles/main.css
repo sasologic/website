@@ -477,6 +477,8 @@ nav ul li a:hover {
 }
 /* End of CSS for Development Notice Modal */
 
+/* blog.html css */
+
 .blog__main {
   padding: 16px;
   background: #ddd;
@@ -491,12 +493,16 @@ nav ul li a:hover {
   
 }
 
+.blog__paragraph {
+  
+  overflow: hidden;
+  line-height: 2;
+  word-wrap: break-word;
+ 
+ }
+ 
+
 ::-webkit-scrollbar {
   display: none;
 }
 
-.blog__paragraph {
-  
- overflow: hidden;
-
-}
