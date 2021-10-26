@@ -79,14 +79,34 @@ ul li a {
 }
 
 .hero-section {
-  background: no-repeat center/100% url("/images/cover.jpg");
-  object-fit: contain;
   width: 100%;
-  height: 35%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 84px;
+ 
+  position: relative;
+  
+}
+
+.image-container {
+width: 100%;
+ height: 35%;
+  
+}
+
+.image-container .hero-image {
+  object-fit: contain;
+  width: 100vw;
+  z-index: -2;
+}
+
+.hero-section .hero-info {
+   z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 10vw;
+  width: 100vw;
+}
+
+.hero-info p,h1 {
+  text-align: center;
 }
 
 .hero-section h1 {
@@ -97,14 +117,15 @@ ul li a {
 
 .subhead {
   font-size: 0.98em;
-  z-index: 1;
   color: #000066;
   font-weight: 900;
 }
 
 
 .features-section {
+  margin-top: -10px;
   width: 100%;
+  
   background-color: orange;
   text-align: center;
   margin-bottom: 0;
@@ -129,7 +150,7 @@ ul li a {
 }
 .testimonial-section {
   background-color: #f0f0f0;
-  margin-top: 0;
+  margin-top: -25px;
   text-align: center;
   padding: 2em 0;
 }
@@ -310,7 +331,7 @@ nav ul li a:hover {
 
   .subhead {
     font-size: 1.2em;
-    margin-bottom: 12%;
+    
   }
 
   .features-section img {
@@ -347,9 +368,7 @@ nav ul li a:hover {
     padding: 0 0.7em;
   }
 
-  .hero-section {
-    height: 80%;
-  }
+ 
 
   .user-image {
     width: 14%;
@@ -392,13 +411,7 @@ nav ul li a:hover {
   .hide-desktop {
     display: none;
   }
-  .hero-section {
-    background: no-repeat center/100% url("/images/cover.jpg");
-    width: 100%;
-    height: 100%;
-    margin-top: 0px;
-  }
-
+  
   .features-section {
     position: relative;
     top: -25px;
